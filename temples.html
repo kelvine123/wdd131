@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temple Album – WDD 131 Dynamic Web Fundamentals">
+    <meta name="author" content="Kelvine Inganga">
+
+    <title>Temple Album | WDD 131</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <!-- CSS (mobile first) -->
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/temples.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Temple Album</h1>
+
+        <button id="menu" aria-label="Toggle Menu">☰</button>
+
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Beautiful Temples Around the World</h2>
+
+        <section class="gallery">
+            <figure>
+                <img src="images/nairobi_kenya_temple_exterior.jpeg" alt="Temple 1">
+                <figcaption>Nairobi Kenya Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rome_italy_temple.jpeg" alt="Temple 2">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt_lake_temple_lds.jpeg" alt="Temple 3">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/accra_ghana_temple_lds.jpeg" alt="Temple 4">
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/johannesburg_south_africa_temple_lds.jpeg" alt="Temple 5">
+                <figcaption>Johannesburg Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/paris_france_temple_exterior.jpeg" alt="Temple 6">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/london_england_temple_lds.jpeg" alt="Temple 7">
+                <figcaption>London England Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/aba_nigeria_temple_lds.jpeg" alt="Temple 8">
+                <figcaption>Aba Nigeria Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/manila_philippines_temple_lds.jpeg" alt="Temple 9">
+                <figcaption>Manila Philippines Temple</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Kelvine Inganga | Kenya</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
